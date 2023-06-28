@@ -7,6 +7,6 @@ Link to dataset: https://www.kaggle.com/datasets/wosaku/crime-in-vancouver?selec
 The model used to make these predictions is from an algorithm called KNN (K-Nearest Neigbors). A description of the algorithm can be found here: https://www.geeksforgeeks.org/k-nearest-neighbours/. The reason I use this algorithm is because it's the one that make sense the most for the dataset with how it can use supervised learning for pattern recognition.
 I've also made a file called crime-shortener to make the dataset smaller for easier testing.
 
-In short, the accuracy of my model is around 30-45%. And even though it's better than random, the accuracy is not high enough to be considered reliable. I intend to use different algorithms to see if there are other ways to improve model accuracy. 
+In short, the accuracy of my model is around 30-45%. And even though it's better than random, the accuracy is not high enough to be considered reliable. One reason could be the model itself and the algorithm might not be the perfect fit for the dataset. Another one could just be the nature of crime itself and it's not always guaranteed that a type of crime will happen at this specific time and this particular neighborhood. Regardless, I intend to implement different algorithms to see if there are other ways to improve model accuracy. 
 
-To run the program, just run Crime_Pred.ipnyb as a Python file and it will run on the crime_shortened.csv file by default to run quickly. You can change the link to file on crime.csv to run with the full dataset. 
+To run the program, just run Crime_Pred.ipnyb as a Python file and it will run on the crime_shortened.csv file by default to run quickly. You can change the link to file on crime.csv to run with the full dataset.
